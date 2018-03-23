@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1", width=device-width>
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    
+    <header>
+      <svg width="200px" height="200px" viewbox="0 0 1000 400">
+        <image width="800px" height="800px" xlink:href="img/logo.svg">
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>Jaime Alban</h2>
+      <h3>October 30th, 1980</h3>
+      <h3>Latacunga - Ecuador</h3>
+    </header>
+    <nav>
+      <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="educacion.html">Education</a> </li>
+        <li> <a href="experiencia.html">Experience</a> </li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Education</h2>
+      <br>
+      <table border="1" cellpadding="20", cellspacing="0">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Intitution</th>
+            <th>Place</th>
+            <th>Completed?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>2009</th>
+            <th>Telefonica - Movistar</th>
+            <th>Quito - Ecuador</th>
+            <th>Yes</th>
+          </tr>
+          <tr>
+            <th>2004</th>
+            <th>Army Polytechnic School ESPE</th>
+            <th>Sangolqui - Ecuador</th>
+            <th>Yes</th>
+          </tr>
+          <tr>
+            <th>1998</th>
+            <th>Colegio San Gabriel - Educative Unit</th>
+            <th>Quito - Ecuador</th>
+            <th>Yes</th>
+          </tr>
+        </tbody>
+      </table>
+     <br>
+    </section>
+    <section>
+      <form autocomplete="on" name="Registro">
+        <fieldset>
+          <legend> <strong>Add Studies</strong> </legend>
+            <p>
+              <label for="Anio"> <strong>Año:</strong> </label>
+              <select name="Anio">
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+              </select>
+            </p>
+            <p>
+              <label for="Institucion">Institution:</label>
+              <input type="text" name="Institution" placeholder="Ej, Universidad de NY" autofocus required="true">
+            </p>
+            <p>
+              <label for="Place">Place</label>
+              <textarea name="Place" rows="8" cols="40" placeholder="Ej, New York - US" autofocus required="true"></textarea>
+            </p>
+            <p>
+              <label for="Completed">Completed:</label>
+              <input type="radio" name="Yes" value="Yes"> Yes
+              <input type="radio" name="No" value="No"> No
+            </p>
+            <p>
+              <input type="submit" name="submit" value="Enviar">
+            </p>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <strong>
+        <em>Contact to:</em>
+      </strong>
+      <ul>
+        <li><em>Mobile: +593 999 016712 </em></li>
+        <li><em>Email: <a href="mailto:joav700@hotmail.com?subject=feedback">Joav@hotmail.com</a> </em> </li>
+        <li> <em>LinkedIn: <a href="https://www.linkedin.com/in/jaime-alban-9a0ba097"> Jaime Alban </a> </em> </li>
+      </ul>
+    </footer>
+  </body>
+</html>
